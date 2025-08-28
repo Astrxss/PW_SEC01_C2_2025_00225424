@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronomia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="titulo">Astronomía: Una ventana al universo</h1>
+
+  <div class="acciones">
+    <button id="btnOrdenar">Ordenar Contenido</button>
+    <button id="btnTitulo">Cambiar Título</button>
+    <button id="btnColores">Cambiar Colores Descripción</button>
+    <button id="btnImagen">Agregar Imagen</button>
+  </div>
+
+  <div class="contenedor">
+    <aside id="datosLibro">
+      <h2>Datos del libro</h2>
+      <ul>
+        <li><strong>Título:</strong> Astronomía: Una ventana al universo</li>
+        <li><strong>Autor:</strong> Dra. Elena Martínez</li>
+        <li><strong>Editorial:</strong> Ediciones Cosmos</li>
+        <li><strong>Año de publicación:</strong> 2022</li>
+        <li><strong>ISBN:</strong> 978-1-23456-789-0</li>
+      </ul>
+      <div id="zonaImagen"></div>
+    </aside>
+
+    <section>
+      <h2 id="subtitulo">Descripción del libro</h2>
+      <p id="descripcionTexto">
+        La astronomía es una de las ciencias más antiguas de la humanidad y, 
+        al mismo tiempo, una de las más fascinantes.
+         Desde que el ser humano alzó la vista al cielo nocturno, 
+         ha buscado comprender los misterios de las estrellas, 
+         los planetas y las galaxias que lo rodean.
+      </p>
+      <p>
+        Este libro ofrece una introducción clara y amena al estudio del universo,
+         abarcando desde los conceptos más básicos hasta los descubrimientos más recientes.
+          No se requieren conocimientos previos de física o matemáticas avanzadas: 
+          basta con la curiosidad de querer explorar el cosmos.
+      </p>
+      <p>
+        El lector encontrará explicaciones sencillas, 
+        ilustraciones y ejemplos que le permitirán comprender fenómenos como los eclipses, 
+        los agujeros negros, la formación de las galaxias y la expansión del universo.
+      </p>
+
+      <h2>Contenido del libro</h2>
+      <div id="contenidoLibros" class="contenido-grid">
+        <div>
+          Primera parte: El cielo y sus secretos
+          Introducción a la observación astronómica.
+          Las constelaciones y su historia.
+          Herramientas básicas de observación (telescopios).
+        </div>
+        <div>
+          Segunda parte: El sistema solar
+          El Sol como estrella.
+          Los planetas y sus características.
+          Satélites, cometas y asteroides.
+        </div>
+        <div>
+          Tercera parte: El universo profundo
+          La Vía Láctea y otras galaxias.
+          Agujeros negros, supernovas y cúmulos estelares.
+          La expansión del universo y la cosmología moderna.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <input type="file" id="fileInput" accept="image/*" hidden>
+  <script src="script.js"></script>
+</body>
+</html>

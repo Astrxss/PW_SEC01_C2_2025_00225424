@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.5;
+    background: white;
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .acciones {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .acciones button {
+    margin: 5px;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .acciones button:hover {
+    background: #ddd;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  #datosLibro ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #datosLibro li {
+    margin-bottom: 8px;
+  }
+  
+  #zonaImagen {
+    margin-top: 15px;
+  }
+  
+  .contenido-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .contenido-grid.vertical {
+    grid-template-columns: 1fr;
+  } 
